@@ -26,6 +26,27 @@
 			{
 				margin: 5px;
 			}
+			.topnisse {
+				position: absolute;
+				width: 190px;
+				height: 227px;
+				margin-top: 30px;
+				margin-left: -5px;
+			}
+			.nisse {
+				width: 200px;
+				height: 229px;
+				float: right;
+				margin-top: -110px;
+				margin-right: 10px;
+				margin-bottom: -120px;
+			}
+			.lights {
+				position: absolute;
+				height: 150px;
+				margin-top: 160px;
+				margin-left: 394px;
+			}
 			.tab-pane h1 {
 				margin-top: 0;
 				margin-bottom: 0;
@@ -58,7 +79,7 @@
 			}
 			.jumbotron
 			{
-				margin-top: 40px;
+				margin-top: 165px;
 				padding: 10px 35px 20px 35px !important;
 				background-color: #00e68a !important;
 			}
@@ -119,7 +140,7 @@
 			.description
 			{
 				margin-left: 20px;
-				margin-bottom: 35px;
+				margin-bottom: 30px;
 			}
 			.score
 			{
@@ -133,6 +154,9 @@
 	</head>
 	<body>
 		<div class="container">
+			<img src="topnisse.png" class="topnisse">
+			<img src="lights.png" width="763px" class="lights">
+
 			<div class="jumbotron">
 	  		<h1>FK GAM: Spillerum</h1>
 
@@ -157,6 +181,8 @@
 					</small>
 				</div>
 
+				<img src="nisse.png" class="nisse">
+
 			  <ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
 			    <li class="active"><a href="#spil" data-toggle="tab"><i class="fa fa-gamepad"></i> Spil</a></li>
 			    <li><a href="#spil-arkiver" data-toggle="tab"><i class="fa fa-archive"></i> Spil Arkiver</a></li>    
@@ -164,7 +190,7 @@
 			    <li><a href="#programmering" data-toggle="tab"><i class="fa fa-code"></i> Programmering</a></li>
 			    <li><a href="#highscore" data-toggle="tab"><i class="fa fa-trophy"></i> Highscores</a></li>
 			  </ul>
-
+				
 				<div id="my-tab-content" class="tab-content">
 					<div class="tab-pane active" id="spil">
 						<h1>Spil</h1>
@@ -308,7 +334,14 @@
 								<img src="http://static.apkupdate.com/images/cover/com.kapogames.deathrun3d.png"><br>
 								Death Run<br>
 							</a>
-							
+
+							<a href="http://kizi.com/games/my-best-friend" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://static0.kizi.com/system/static/thumbs/tile_thumb/855/original_PaM_150.jpg?1348397211"><br>
+								My Best Friend<br>
+							</a>
+
 							<!-- <a href="" 
 								 target="_blank"
 								 class="btn btn-default">
@@ -340,6 +373,13 @@
 								 class="btn btn-default">
 								<img src="http://img-ak.y8.com/assets/logo_game-09daccd61997e703a1c26090b3832a75.png" width="64px"><br>
 								y8.com
+							</a>
+
+							<a href="http://kizi.com/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="http://www.sidekick.co.il/web/images/logo_angry.png" width="64px"><br>
+								kizi.com
 							</a>
 						</div>
 					</div>
