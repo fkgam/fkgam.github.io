@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://bootswatch.com/lumen/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<script src="https://use.fontawesome.com/29befe40d5.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<style>
+	    body
+	    {
+	      font-family: 'PT Sans Narrow', sans-serif;
+	      font-size: 20px;
+	      background-color: #0dccee;
+	    }
+	    img
+			{
+				height: 64px;
+			}
+			h1
+			{
+				font-size: 40px;
+			}
+			a
+			{
+				margin: 5px;
+			}
+			.tab-pane h1 {
+				margin-top: 0;
+				margin-bottom: 0;
+				padding-top: 20px;
+				padding-left: 20px;
+				padding-bottom: 20px;
+				background-color: #00e68a;
+			}
+			.tab-pane .btn-group
+			{
+				width: 100%;
+				background-color: #00e68a;
+				padding-left: 10px;
+				padding-bottom: 10px;
+			}		
+			.btn {
+				margin: 0 0 10px 10px !important;
+				width: 128px;
+				height: 98px;
+				font-size: 18px;
+				word-wrap: break-word;
+				text-transform: none;
+			}
+			.btn:hover {
+				background-color: #d2e0e0;
+			}
+			.alert-danger
+			{
+				margin-top: 60px
+			}
+			.jumbotron
+			{
+				margin-top: 40px;
+				padding: 10px 35px 20px 35px !important;
+				background-color: #00e68a !important;
+			}
+			.nav-tabs
+			{
+				border-bottom: 0;
+			}
+			.nav-tabs li.active a
+			{
+				border-color: #00e68a !important;
+				color: black !important;
+				background-color: #00e68a !important;
+			}
+			.nav-tabs li a
+			{
+				border-color: #00b36b !important;
+				border-bottom-color: #00e68a !important;
+				margin: 0;
+				margin-left: 5px;
+				color: #004d00 !important;
+				background-color: #00b36b;
+				padding-bottom: 10px !important;
+			}
+			.nav-tabs li a:hover
+			{
+				background-color: #d2e0e0;
+
+			}
+			.badge
+			{
+				font-size: 16px;
+				color: black !important;
+			}
+			.well 
+			{
+				text-align: center;
+			}
+			.well h3 
+			{
+				margin-top: 10px;
+			}
+			.well h3 a
+			{
+				text-decoration: none;	
+				color: black;			
+			}
+			.well h3 a:hover
+			{
+				color: grey;
+			}
+			.nav-pills li.active a:hover
+			{
+				background-color: #179bcf;
+			}
+			.nav-pills li {
+				float: none;
+			}
+			.description
+			{
+				margin-left: 20px;
+				margin-bottom: 35px;
+			}
+			.score
+			{
+				width: 100%;
+    		background-color: #00e68a;
+		    padding-left: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 35px;
+			}
+  	</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="jumbotron">
+	  		<h1>FK GAM: Spillerum</h1>
+
+	  		Her kan du:
+
+			  <ul>
+			  	<li>spille spil på computerene eller playstation</li>
+			  	<li>spille 8-ball, 9-ball eller keglebilliard ved poolbordet</li>
+			  	<li>spille bordfodbold</li>
+		  		<li>spille dart</li>
+		  	</ul>
+
+	  		<div class="alert alert-danger" role="alert">
+	  			HUSK! Tid ved computerene eller playstation reserveres i baren. Spil og controllere til playstation kan lånes i baren. Byttetid er hver halve time!
+	  		</div>
+			</div>
+			<div id="content">
+				<div class="description">
+					Her er en samling af nyttige links på nettet<br>
+					<small>
+						Sig til Bjørn, hvis du har et link eller et spil de andre børn bare må kende, så kan det komme på listen
+					</small>
+				</div>
+
+			  <ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
+			    <li class="active"><a href="#spil" data-toggle="tab"><i class="fa fa-gamepad"></i> Spil</a></li>
+			    <li><a href="#spil-arkiver" data-toggle="tab"><i class="fa fa-archive"></i> Spil Arkiver</a></li>    
+			    <li><a href="#kodeklub" data-toggle="tab"><i class="fa fa-users"></i> Kodeklub</a></li>    
+			    <li><a href="#programmering" data-toggle="tab"><i class="fa fa-code"></i> Programmering</a></li>
+			    <li><a href="#highscore" data-toggle="tab"><i class="fa fa-trophy"></i> Highscores</a></li>
+			  </ul>
+
+				<div id="my-tab-content" class="tab-content">
+					<div class="tab-pane active" id="spil">
+						<h1>Spil</h1>
+						<div class="btn-group inline pull-left">			
+							<a href="http://agariofun.com/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="https://upload.wikimedia.org/wikipedia/en/1/19/Agar.io_appstore_logo.png"><br>
+								Agar.io PVP
+							</a>
+
+							<a href="http://Agar.io/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="https://upload.wikimedia.org/wikipedia/en/1/19/Agar.io_appstore_logo.png"><br>
+								Agar.io
+							</a>
+
+							<a href="http://diep.io/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="https://lh3.googleusercontent.com/IX0ngYU9Iwgia3OkXX-JfhVQLHBYdRKhvHg2T935jmDsiiy7VbZ_d0gHE_ytHU_EXUMmwwHwn0w=s50-h50-e365"><br>
+								Diep.io
+							</a>
+
+							<a href="http://slither.io/" 
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="https://upload.wikimedia.org/wikipedia/en/5/50/Slither.png"><br>
+								Slither.io
+							</a>
+
+							<a href="http://splix.io/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://iogame.org/content/icons/splix-io-icon-1.jpg"><br>
+								Splix.io
+							</a>
+
+							<a href="http://momio.me/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.momio.me/framework/img/app_icons/icon_144x144.png"><br>
+								Momio.Me
+							</a>
+
+							<a href="http://y8.com/games/slope" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.yakoto.bg/uploads/games/screenshots/slope-game-unity-screenshot.jpg"><br>
+								Slope
+							</a>
+
+							<a href="http://tetris.com/play-tetris/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://icons.iconarchive.com/icons/chrisbanks2/cold-fusion-hd/128/tetris-icon.png"><br>
+								Tetris
+							</a>
+
+							<a href="http://mario-cat.com/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://piq.codeus.net/static/media/userpics/piq_188165_400x400.png"><br>
+								Mario-Cat
+							</a>
+
+							<a href="https://gabrielecirulli.github.io/2048/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://isource.com/wp-content/uploads/2014/04/2048-icon.png"><br>
+								2048
+							</a>
+
+							<a href="http://www.moviestarplanet.dk/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://cdn.moviestarplanet.com/img/logo.jpg"><br>
+								Moviestar Planet
+							</a>
+
+							<a href="http://www.y8.com/games/run_3" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.actiongame.org/wp-content/uploads/running-game.gif"><br>
+								Run 3<br>
+							</a>
+
+							<a href="http://gunr.io/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="https://www.minijuegosgratis.com/v3/games/thumbnails/216654_1.jpg"><br>
+								Gunr.io<br>
+							</a>
+
+							<a href="http://www.y8.com/games/bad_ice_cream" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://play.gamerzorg.com/games/1004-bad-ice-cream-icon.jpg"><br>
+								Bad Icecream<br>
+							</a>
+
+							<a href="http://doblons.io/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.obfog.com/content/icons/doblons-io-icon-1.jpg"><br>
+								Doblons.io<br>
+							</a>
+
+							<a href="http://www.y8.com/games/physicar" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://i.flipline.com/othergamefiles/physicar/images/gameicon.jpg"><br>
+								Physicar<br>
+							</a>
+
+							<a href="http://blockor.io/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.obfog.com/content/icons/blockor-io-icon-1.jpg"><br>
+								Blockor.io<br>
+							</a>
+
+							<a href="http://braains.io/app/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.obfog.com/content/icons/braains-io-icon-1.jpg"><br>
+								Braains.io<br>
+							</a>
+
+							<a href="http://mope.io/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://www.obfog.com/content/icons/mope-io-icon-1.jpg"><br>
+								Mope.io<br>
+							</a>
+
+							<a href="http://www.y8.com/games/death_run_3d" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://static.apkupdate.com/images/cover/com.kapogames.deathrun3d.png"><br>
+								Death Run<br>
+							</a>
+							
+							<!-- <a href="" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src=""><br>
+								<br>
+							</a> -->
+						</div>
+					</div>
+
+					<div class="tab-pane" id="spil-arkiver">
+						<h1>Spil Arkiver</h1>
+						<div class="btn-group inline pull-left">			
+							<a href="https://www.roblox.com/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://vignette3.wikia.nocookie.net/roblox/images/a/ac/Roblox_Icon.jpg"><br>
+								Roblox
+							</a>
+
+							<a href="http://friv.com/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="https://lh3.googleusercontent.com/YTCalIdyazG_XS6IcOzN_UU3esHH9e0U3OR_RIBGp_6kBjklW5R6sn0tAwCV0qaqLw=w300" width="64px"><br>
+								Friv.com
+							</a>
+
+							<a href="http://y8.com/"
+								 target="_blank" 
+								 class="btn btn-default">
+								<img src="http://img-ak.y8.com/assets/logo_game-09daccd61997e703a1c26090b3832a75.png" width="64px"><br>
+								y8.com
+							</a>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="kodeklub">
+						<h1>Kodeklubbens Spil og Animationer</h1>
+						
+						<div class="score">
+							<div class="alert alert-info" role="alert">
+								Vær med til at lave spil og animationer i Kodeklubben!! Find os på Scratch! <a href="https://scratch.mit.edu/studios/3541383/projects/"	target="_blank">@Kodeklubben</a>
+							</div>
+						
+							<div class="row">
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Johan Lassen</h3>
+										<a href="https://scratch.mit.edu/projects/124392623/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/124392623_144x108.png"><br>
+											Cat Party
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/125656466/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/125656466_144x108.png"><br>
+											Historie
+										</a>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Bjørn Puggaard</h3>
+										<a href="https://scratch.mit.edu/projects/121385800/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/121385800_100x80.png"><br>
+											Ballonkrabben
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/121103204/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/121103204_100x80.png"><br>
+											Billemad
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/123972937/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/123972937_100x80.png"><br>
+											Danser!
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/125344120/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/125344120_100x80.png"><br>
+											Eventyr
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/129358191/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/129358191_100x80.png"><br>
+											Dino's Tur
+										</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="programmering">
+						<h1>Programmering</h1>
+						<div class="btn-group inline pull-left">
+							<a href="https://scratch.mit.edu/projects/editor/?tip_bar=home" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img width="64px" src="https://wiki.scratch.mit.edu/w/images/Cat.png"><br>
+								Scratch
+							</a>
+
+							<a href="https://codecombat.com/play/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="http://21clradio.com/wp-content/uploads/2015/07/codecombat.png" width="64px"><br>
+								Code Combat
+							</a>
+
+							<a href="https://www.bloc.io/ruby-warrior/" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="https://cdn1.bloc.io/assets/ruby_warrior/spartacus-cfdb6102cd0a1dc6a635eaecc2403aba.png" width="64px"><br>
+								Ruby Warrior
+							</a>
+						</div>
+					</div>
+				<div class="tab-pane" id="highscore">
+						<h1>Klub Highscores</h1>
+						<div class="score">
+							<div class="alert alert-success" role="alert">
+								Har du sat en vild score, så vis det til Bjørn og du kommer på highscore listen!!
+							</div>
+
+							<div class="row">
+								<div class="col-sm-3">
+									<div class="well well-sm">
+										<h3><a href="http://agariofun.com/" target="_blank">Agariofun (FFA 1)</a></h3>
+									  <ul class="nav nav-pills">
+											<li class="active"><a href="http://agariofun.com/" target="_blank">Bastian D.<br>
+											<span class="badge">9873 point</span> <span class="badge">120 eaten</span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="well well-sm">
+										<h3><a href="http://agariofun.com/" target="_blank">Agariofun (FFA Giant 3)</a></h3>
+									  <ul class="nav nav-pills">
+											<li class="active"><a href="http://agariofun.com/" target="_blank">Simon A.<br>
+											<span class="badge">32200 point</span> <span class="badge">747 eaten</span></a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="well well-sm">
+										<h3><a href="http://y8.com/games/slope" target="_blank">Slope</a></h3>
+										<ul class="nav nav-pills">
+				  						<li class="active"><a href="http://y8.com/games/slope" target="_blank">Lasse R.<br>
+				  						<span class="badge">84 point</span></a></li>
+				  					</ul>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="well well-sm">
+										<h3><a href="http://splix.io/" target="_blank">Splix</a></h3>
+										<ul class="nav nav-pills">
+				  						<li class="active"><a href="http://splix.io/" target="_blank">Camilla C.<br>
+				  						<span class="badge">11154 point</span></a></li>
+				  					</ul>
+									</div>
+								</div>
+								<div class="col-sm-3">
+									<div class="well well-sm">
+										<h3><a href="https://gabrielecirulli.github.io/2048/" target="_blank">2048</a></h3>
+										<ul class="nav nav-pills">
+				  						<li class="active"><a href="https://gabrielecirulli.github.io/2048/" target="_blank">Bjørn P.<br>
+				  						<span class="badge">35060 point</span></a></li>
+				  					</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div> <!-- container -->
+
+		<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
