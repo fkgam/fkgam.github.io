@@ -16,7 +16,8 @@
 	    }
 	    img
 		{
-			height: 64px !important;
+			height: 64px;
+			/*!important;*/
 		}
 		h1
 		{
@@ -26,14 +27,25 @@
 		{
 			margin: 5px;
 		}
-		.topnisse {
+		.santa
+		{
+			width: 306px !important;
+			height: 218px !important;
+		}
+		.santa img
+		{
+			height: 178px !important;
+		}
+		.topnisse
+		{
 			position: absolute;
 			width: 190px !important;
 			height: 227px !important;
 			margin-top: 30px;
 			margin-left: -5px;
 		}
-		.nisse {
+		.nisse
+		{
 			width: 200px !important;
 			height: 229px !important;
 			float: right;
@@ -41,11 +53,20 @@
 			margin-right: 10px;
 			margin-bottom: -120px;
 		}
-		.lights {
+		.lights
+		{
 			position: absolute;
 			height: 150px !important;
 			margin-top: 166px;
 			margin-left: 394px;
+		}
+		.xmas-group .btn
+		{
+			width: 228px;
+		}
+		.xmas-group img
+		{
+			height: 148px !important;
 		}
 		/*.large {
 			width: 306px !important;
@@ -54,7 +75,8 @@
 		.large img {
 				height: 153px !important;
 		}*/
-		.tab-pane h1 {
+		.tab-pane h1
+		{
 			margin-top: 0;
 			margin-bottom: 0;
 			padding-top: 20px;
@@ -69,7 +91,8 @@
 			padding-left: 10px;
 			padding-bottom: 10px;
 		}		
-		.btn {
+		.btn
+		{
 			margin: 0 0 10px 10px !important;
 			width: 148px;
 			min-height: 104px;
@@ -77,7 +100,8 @@
 			word-wrap: break-word;
 			text-transform: none;
 		}
-		.btn:hover {
+		.btn:hover
+		{
 			background-color: #d2e0e0;
 		}
 		.alert-danger
@@ -156,6 +180,10 @@
 		    padding-right: 20px;
 		    padding-bottom: 35px;
 		}
+		.htmlbtn
+		{
+			min-height: 48px !important;
+		}
   	</style>
 	</head>
 	<body>
@@ -175,7 +203,7 @@
 		  	</ul>
 
 	  		<div class="alert alert-danger" role="alert">
-	  			HUSK! Tid ved computerene eller playstation reserveres i caféen. Spil og controllere til playstation kan lånes i caféen. Byttetid er hver halve time!
+	  			HUSK! Tid ved computerene eller playstation reserveres i baren. Spil og controllere til playstation kan lånes i baren. Byttetid er hver halve time!
 	  		</div>
 			</div>
 			<div id="content">
@@ -188,18 +216,38 @@
 
 				<img src="nisse.png" class="nisse">
 
-				<ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
-			    <li class="active"><a href="#spil" data-toggle="tab"><i class="fa fa-gamepad"></i> Spil</a></li>
-			    <li><a href="#spil-arkiver" data-toggle="tab"><i class="fa fa-archive"></i> Spil Arkiver</a></li>    
-			    <li><a href="#kodeklub" data-toggle="tab"><i class="fa fa-users"></i> Kodeklub</a></li>    
-			    <li><a href="#programmering" data-toggle="tab"><i class="fa fa-code"></i> Programmering</a></li>
-			    <li><a href="#highscore" data-toggle="tab"><i class="fa fa-trophy"></i> Highscores</a></li>
+			  	<ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
+			    <li class="active"><a href="https://fkgam.github.io/#spil" data-toggle="tab"><i class="fa fa-gamepad"></i> Spil</a></li>
+			    <li><a href="https://fkgam.github.io/#spil-arkiver" data-toggle="tab"><i class="fa fa-archive"></i> Spil Arkiver</a></li>
+			    <li><a href="https://fkgam.github.io/#kodeklub" data-toggle="tab"><i class="fa fa-users"></i> Kodeklub</a></li>
+			    <li><a href="https://fkgam.github.io/#hjemmeside" data-toggle="tab"><i class="far fa-newspaper"></i> Hjemmesider</a></li>
+			    <li><a href="https://fkgam.github.io/#programmering" data-toggle="tab"><i class="fa fa-code"></i> Programmering</a></li>
+			    <li><a href="https://fkgam.github.io/#highscore" data-toggle="tab"><i class="fa fa-trophy"></i> Highscores</a></li>
 			  </ul>
-				
+
 				<div id="my-tab-content" class="tab-content">
 					<div class="tab-pane active" id="spil">
 						<h1>Spil</h1>
-						<div class="btn-group inline pull-left">			
+						<div class="btn-group inline pull-left xmas-group">
+
+							<a href="https://scratch.mit.edu/projects/189094363/#fullscreen" target="_blank" class="btn btn-default">
+								<img src="https://cdn2.scratch.mit.edu/get_image/project/189094363_144x108.png"><br>
+								Santa's Rollin'
+							</a>
+
+							<a href="https://scratch.mit.edu/projects/266719694/#fullscreen" target="_blank" class="btn btn-default">
+								<img src="https://cdn2.scratch.mit.edu/get_image/project/266719694_144x108.png"><br>
+								Santa's Flying
+							</a>
+
+							<a href="https://scratch.mit.edu/projects/347904191/#fullscreen" target="_blank" class="btn btn-default">
+								<img src="https://cdn2.scratch.mit.edu/get_image/project/347904191_144x108.png"><br>
+								Santa Roof Run
+							</a>
+						</div>
+
+						<div class="btn-group inline pull-left">
+
 							<a href="http://agariofun.com/"
 								 target="_blank" 
 								 class="btn btn-default">
@@ -231,7 +279,7 @@
 							<a href="http://splix.io/" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://iogame.org/content/icons/splix-io-icon-1.jpg"><br>
+								<img src="https://img.utdstc.com/icons/splix-io-android.png:l"><br>
 								Splix.io
 							</a>
 
@@ -245,7 +293,7 @@
 							<a href="http://y8.com/games/slope" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://www.yakoto.bg/uploads/games/screenshots/slope-game-unity-screenshot.jpg"><br>
+								<img src="http://img.kbhgames.com/2014/10/slope.jpg"><br>
 								Slope
 							</a>
 
@@ -280,7 +328,7 @@
 							<a href="http://www.y8.com/games/run_3" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://www.run3online.org/games/image/run-3.png"><br>
+								<img src="https://image.winudf.com/v2/image/Y29tLmNvb2xtYXRoZ2FtZXNydW4zLmNvb2xtYXRoZ2FtZXNydW4zX2ljb25fMTUyNjA5MTg0N18wMDA/icon.png?w=170&fakeurl=1"><br>
 								Run 3<br>
 							</a>
 
@@ -294,7 +342,7 @@
 							<a href="http://www.y8.com/games/bad_ice_cream" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://play.gamerzorg.com/games/1004-bad-ice-cream-icon.jpg"><br>
+								<img src="https://madalinstuntcars2.io/data/image/bad-ice-cream.jpg"><br>
 								Bad Icecream<br>
 							</a>
 
@@ -336,7 +384,7 @@
 							<a href="http://www.y8.com/games/death_run_3d" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://static.apkupdate.com/images/cover/com.kapogames.deathrun3d.png"><br>
+								<img src="https://1.bp.blogspot.com/-ippDdAPsBiY/W2lo1GYsM7I/AAAAAAAAAik/g_Kp_KxpdI8q3dplhkGaN93JWaI9FsuewCLcBGAs/s200/icon_256.png"><br>
 								Death Run<br>
 							</a>
 
@@ -357,14 +405,14 @@
 							<a href="http://www.fireboynwatergirl.com/" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://img.yoypo.com/r/m/2013-12/fireboy-and-watergirl-forest-temple.jpg"><br>
+								<img src="https://cdn6.aptoide.com/imgs/c/8/4/c84fc9b5eed8ae6edbb73da1396bad50_icon.png?w=160"><br>
 								Fireboy&Watergirl<br>
 							</a>
 
 							<a href="http://www.y8.com/games/transmorpher" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://www.mariovssonicgame.com/content/icons/transmorpher_3.jpg"><br>
+								<img src="http://cdn2.hoopgame.net/icon/76/2a/762a50589af095ae6593b98a0d57222b.jpg"><br>
 								Transmorpher<br>
 							</a>
 
@@ -385,21 +433,21 @@
 							<a href="http://www.y8.com/games/fancy_pants_adventure_3" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://nx8.com/content/icons/Fancy-Pants-Adventure-World-3-icon-1.jpg"><br>
+								<img src="http://static0.kizi.com/system/static/thumbs/tile_thumb/1488/thumb150_fpa_w1_remix_150x150.jpg?1443831498"><br>
 								Fancy Pants Adv. 3<br>
 							</a>
 
 							<a href="http://zlap.io/" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="https://img2.androidappsapk.co/150/f/2/5/com.plynaw.zmopio.png"><br>
+								<img src="https://cdn6.aptoide.com/imgs/b/2/1/b218cb7be2f312a3ee6b2b4de1015f34_icon.png?w=160"><br>
 								Zlap.io<br>
 							</a>
 
 							<a href="https://slay.one/" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://minecraftgamesplay.org/content/icons/slay-one-icon-1.jpg"><br>
+								<img src="https://image.winudf.com/v2/image/Y29tLmthbmRpZ2FtZS5zbGF5b25lX2ljb25fMTUxMzQ4NDgyNV8wMjI/icon.png?w=170&fakeurl=1"><br>
 								Slay One!<br>
 							</a>
 
@@ -437,6 +485,13 @@
 								<img src="https://lh3.googleusercontent.com/1Y37hCCTtONWxwvzhGmd-LoIOAv4ofwbpo8UAcdlCuw6qAia0dT-LRi0WX7bco7trp9k=w168"><br>
 								Mitosis<br>
 							</a>
+							
+							<a href="http://www.y8.com/games/xracer" 
+								 target="_blank"
+								 class="btn btn-default">
+								<img src="https://lh3.googleusercontent.com/XrjQ5g5YHY7V7_mRaTKocUgBQEoZsrpjZPoBIrlZauQLwdDQWZX-Tj1iWCvYiWjuxZg=w168"><br>
+								X Racer<br>
+							</a>
 
 							<!-- <a href="" 
 								 target="_blank"
@@ -444,7 +499,6 @@
 								<img src=""><br>
 								<br>
 							</a> -->
-
 						</div>
 					</div>
 
@@ -454,7 +508,7 @@
 							<a href="https://www.roblox.com/" 
 								 target="_blank"
 								 class="btn btn-default">
-								<img src="http://vignette3.wikia.nocookie.net/roblox/images/a/ac/Roblox_Icon.jpg"><br>
+								<img src="http://www.rw-designer.com/icon-view/15580.png"><br>
 								Roblox
 							</a>
 
@@ -469,23 +523,15 @@
 								 target="_blank" 
 								 class="btn btn-default">
 								<img src="http://img-ak.y8.com/assets/logo_game-09daccd61997e703a1c26090b3832a75.png" width="64px"><br>
-								y8.com
-							</a>
-
-							<a href="http://kizi.com/"
-								 target="_blank" 
-								 class="btn btn-default">
-								<img src="http://www.sidekick.co.il/web/images/logo_angry.png" width="64px"><br>
-								kizi.com
+								Y8.com
 							</a>
 
 							<a href="http://www.twoplayergames.org/"
 								 target="_blank" 
 								 class="btn btn-default">
-								<img src="https://i.ytimg.com/vi/dF7VWp_K28k/hqdefault.jpg" width="64px"><br>
-								Two Player Games
+								<img src="https://cdn6.aptoide.com/imgs/0/c/6/0c68076ed6f27875655c7cdc9bee0fa7_icon.png" width="64px"><br>
+								2PlayerGames.org
 							</a>
-
 						</div>
 					</div>
 
@@ -494,10 +540,87 @@
 						
 						<div class="score">
 							<div class="alert alert-info" role="alert">
-								Vær med til at lave spil og animationer i Kodeklubben!! Find os på Scratch! <a href="https://scratch.mit.edu/studios/3541383/projects/"	target="_blank">@Kodeklubben</a>
+								Vær med til at lave spil og animationer i Kodeklubben!! Find os på Scratch! <a href="https://scratch.mit.edu/studios/3541383/projects/" target="_blank">@Kodeklubben</a>
 							</div>
 						
 							<div class="row">
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Rasmus N.</h3>
+										<a href="https://scratch.mit.edu/projects/260666220/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/260666220_144x108.png"><br>
+											Dragen spiser mus
+										</a>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Asbjørn J. H.</h3>
+										<a href="https://scratch.mit.edu/projects/189570249/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/189570249_144x108.png"><br>
+											Den lynende måne
+										</a>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Tjalfe G.</h3>
+										<a href="https://scratch.mit.edu/projects/225637728/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/225637728_144x108.png"><br>
+											Taco eating <br>simulator
+										</a>
+								
+										<a href="https://scratch.mit.edu/projects/223745719/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/223745719_144x108.png"><br>
+											Life and death <br>wizards
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/225763346/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/225763346_480x360.png"><br>
+											Fish for Fish
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/225683170/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/225683170_144x108.png"><br>
+											Ball Madness
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/225772811/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/225772811_144x108.png"><br>
+											Baseball Catcher
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/225686001/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/225686001_144x108.png"><br>
+											Working Piano
+										</a>
+										<a href="https://scratch.mit.edu/projects/228346913/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/228346913_144x108.png"><br>
+											Monster Hunter
+										</a>
+									</div>
+								</div>
 
 								<div class="col-sm-6">
 									<div class="well well-sm">
@@ -505,24 +628,12 @@
 										<a href="http://superfilm.dk/ØBRO_RUNNER_2017"
 											 target="_blank" 
 											 class="btn btn-default">
-											<img src="https://scontent-ams3-1.xx.fbcdn.net/v/t1.0-1/p200x200/19366585_122869214972447_1084324962537259426_n.jpg?oh=05bb270aa073dea1dbc3224129eecd6d&oe=5A92B099"><br>
+											<img src="https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-1/p200x200/19366585_122869214972447_1084324962537259426_n.jpg?_nc_cat=0&oh=9df1d96ff5f37389af035ec7b68fbf29&oe=5B587199"><br>
 											Øbro Runner 2017
 										</a>
 									</div>
 								</div>
-
-								<div class="col-sm-6">
-									<div class="well well-sm">
-										<h3>Lavet fælles af Lasse R.</h3>
-										<a href="https://scratch.mit.edu/projects/186958471/"
-											 target="_blank" 
-											 class="btn btn-default">
-											<img src="https://uploads.scratch.mit.edu/projects/thumbnails/186958471.png"><br>
-											Zorniger fanger <br>Messi
-										</a>
-									</div>
-								</div>
-
+								
 								<div class="col-sm-6">
 									<div class="well well-sm">
 										<h3>Lavet af Linus C.</h3>
@@ -571,6 +682,88 @@
 											 class="btn btn-default">
 											<img src="https://uploads.scratch.mit.edu/projects/thumbnails/177545894.png"><br>
 											Mega Macer
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/177632223/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/177632223_144x108.png"><br>
+											Dinosaur War
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/177524852/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/177632223_144x108.png"><br>
+											Helicopter Race
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/183757676/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/183757676_144x108.png"><br>
+											Fish Eater
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/200002922/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/200002922_144x108.png"><br>
+											Fun Balls
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/200401484/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/200401484_144x108.png"><br>
+											Mario
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/177632223/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/200354472_144x108.png"><br>
+											Draw
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/200395511/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/200395511_144x108.png"><br>
+											Snig Snake
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/223745580/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/223745580_144x108.png"><br>
+											what bender r u ☆<br> remix			
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/246256494/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/246256494_144x108.png"><br>
+											Dance da Dance
+										</a>
+
+										<a href="https://scratch.mit.edu/projects/260691947/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/260691947_144x108.png"><br>
+											Hypno
+										</a>
+									</div>
+								</div>
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Lasse R.</h3>
+										<a href="https://scratch.mit.edu/projects/186958471/"
+											 target="_blank" 
+											 class="btn btn-default">
+											<img src="https://uploads.scratch.mit.edu/projects/thumbnails/186958471.png"><br>
+											Zorniger fanger <br>Messi
 										</a>
 									</div>
 								</div>
@@ -628,6 +821,13 @@
 								<div class="col-sm-6">
 									<div class="well well-sm">
 										<h3>Lavet af Bjørn P.</h3>
+										<a href="https://scratch.mit.edu/projects/250426137/"
+								 			target="_blank" 
+								 			class="btn btn-default">
+											<img src="https://cdn2.scratch.mit.edu/get_image/project/250426137_144x108.png"><br>
+											Pink Slime
+										</a>
+
 										<a href="https://scratch.mit.edu/projects/189094363/#fullscreen"
 								 			target="_blank" 
 								 			class="btn btn-default">
@@ -719,7 +919,40 @@
 											Dino's Tur
 										</a>
 									</div>
+								</div>								
+							</div>
+						</div>
+					</div>
+
+					<div class="tab-pane" id="hjemmeside">
+						<h1>Hjemmesider af børn i klubben lavet i Kodeklubben</h1>
+						
+						<div class="score">
+						
+							<div class="row">
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Harald</h3>
+										<a href="https://fkgam.github.io/html/h/harald.html" target="_blank" class="btn btn-default htmlbtn">
+											Harald is cool
+										</a>
+									</div>
 								</div>
+
+								<div class="col-sm-6">
+									<div class="well well-sm">
+										<h3>Lavet af Tjalfe</h3>
+										<a href="https://fkgam.github.io/html/t/index.html" target="_blank" class="btn btn-default htmlbtn">
+											Tjalfe's hjemmeside
+										</a>
+
+										<a href="https://fkgam.github.io/html/t/index2.html" target="_blank" class="btn btn-default htmlbtn">
+											Tjalfe's hackede <br>hjemmeside
+										</a>
+									</div>
+								</div>
+
 							</div>
 						</div>
 					</div>
@@ -741,10 +974,8 @@
 								Code Combat
 							</a>
 
-							<a href="https://www.bloc.io/ruby-warrior/" 
-								 target="_blank"
-								 class="btn btn-default">
-								<img src="https://cdn1.bloc.io/assets/ruby_warrior/spartacus-cfdb6102cd0a1dc6a635eaecc2403aba.png" width="64px"><br>
+							<a href="https://www.bloc.io/ruby-warrior/" target="_blank" class="btn btn-default">
+								<img src="https://i.pinimg.com/474x/76/a7/f9/76a7f9377df29fde25794a42ae95f204--learn-ruby-ruby-programming.jpg" width="64px"><br>
 								Ruby Warrior
 							</a>
 						</div>
@@ -780,7 +1011,7 @@
 										<h3><a href="http://y8.com/games/slope" target="_blank">Slope</a></h3>
 										<ul class="nav nav-pills">
 				  						<li class="active"><a href="http://y8.com/games/slope" target="_blank">Lasse R.<br>
-				  						<span class="badge">113 point</span></a></li>
+				  						<span class="badge">150 point</span></a></li>
 				  					</ul>
 									</div>
 								</div>
@@ -815,8 +1046,8 @@
 									<div class="well well-sm">
 										<h3><a href="https://tetris.com/play-tetris/" target="_blank">Tetris</a></h3>
 										<ul class="nav nav-pills">
-				  						<li class="active"><a href="https://tetris.com/play-tetris/" target="_blank">Linus C.<br>
-				  						<span class="badge">22679 point</span></a></li>
+				  						<li class="active"><a href="https://tetris.com/play-tetris/" target="_blank">Lasse R.<br>
+				  						<span class="badge">48513 point</span></a></li>
 				  					</ul>
 									</div>
 								</div>
