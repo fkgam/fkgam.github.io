@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://bootswatch.com/lumen/bootstrap.min.css">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+		<script src="https://use.fontawesome.com/29befe40d5.js"></script>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<style>
+	    body
+	    {
+	      font-family: 'PT Sans Narrow', sans-serif;
+	      font-size: 20px;
+	      background-color: #577066;
+	    }
+	    img
+		{
+			height: 64px;
+			/*!important;*/
+		}
+		h1
+		{
+			font-size: 40px;
+		}
+		a
+		{
+			margin: 5px;
+		}
+		.santa
+		{
+			width: 306px !important;
+			height: 218px !important;
+		}
+		.santa img
+		{
+			height: 178px !important;
+		}
+		.topnisse
+		{
+			position: absolute;
+			width: 190px !important;
+			height: 227px !important;
+			margin-top: 30px;
+			margin-left: -5px;
+		}
+		.nisse
+		{
+			width: 200px !important;
+			height: 229px !important;
+			float: right;
+			margin-top: -110px;
+			margin-right: 10px;
+			margin-bottom: -120px;
+		}
+		.lights
+		{
+			position: absolute;
+			height: 150px !important;
+			margin-top: 166px;
+			margin-left: 394px;
+		}
+		.xmas-group {
+			padding: 0 20px !important;
+		}
+		.xmas-group h2 {
+			padding-left: 10px;
+		}
+		.xmas-group .btn
+		{
+			width: 162px;
+		}
+		.xmas-group img
+		{
+			height: 102px !important;
+			border: 1px lightgray solid;
+		}
+		/*.large {
+			width: 306px !important;
+			height: 218px !important;
+		}
+		.large img {
+				height: 153px !important;
+		}*/
+		.tab-pane h1
+		{
+			margin-top: 0;
+			margin-bottom: 0;
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			background-color: #5b8295;
+		}
+		.tab-pane .btn-group
+		{
+			width: 100%;
+			background-color: #5b8295;
+			padding-left: 10px;
+			padding-bottom: 10px;
+		}		
+		.btn
+		{
+			margin: 0 0 10px 10px !important;
+			width: 148px;
+			min-height: 104px;
+			font-size: 18px;
+			word-wrap: break-word;
+			text-transform: none;
+		}
+		.btn:hover
+		{
+			background-color: #d2e0e0;
+		}
+		.alert-danger
+		{
+			margin-top: 60px
+		}
+		.jumbotron
+		{
+			margin-top: 170px;
+			padding: 10px 35px 20px 35px !important;
+			background-color: #5b8295 !important;
+		}
+		.nav-tabs
+		{
+			border-bottom: 0;
+		}
+		.nav-tabs li.active a
+		{
+			border-color: #5b8295 !important;
+			color: black !important;
+			background-color: #5b8295 !important;
+		}
+		.nav-tabs li a
+		{
+			border-color: #4c6d7d !important;
+			border-bottom-color: #5b8295 !important;
+			margin: 0;
+			margin-left: 5px;
+			color: #004d00 !important;
+			background-color: #4c6d7d;
+			padding-bottom: 10px !important;
+		}
+		.nav-tabs li a:hover
+		{
+			background-color: #d2e0e0;
+		}
+		.badge
+		{
+			font-size: 16px;
+			color: black !important;
+		}
+		.well 
+		{
+			text-align: center;
+		}
+		.well h3 
+		{
+			margin-top: 10px;
+		}
+		.well h3 a
+		{
+			text-decoration: none;	
+			color: black;			
+		}
+		.well h3 a:hover
+		{
+			color: grey;
+		}
+		.nav-pills li.active a:hover
+		{
+			background-color: #179bcf;
+		}
+		.nav-pills li {
+			float: none;
+		}
+		.description
+		{
+			margin-left: 20px;
+			margin-bottom: 30px;
+		}
+		.score
+		{
+			width: 100%;
+			background-color: #5b8295;
+		    padding-left: 20px;
+		    padding-right: 20px;
+		    padding-bottom: 35px;
+		}
+		.htmlbtn
+		{
+			min-height: 48px !important;
+		}
+  	</style>
+	</head>
+	<body>
+		<div class="container">
+			<!-- <img src="topnisse.png" class="topnisse">
+			<img src="lights.png" width="763px" class="lights"> -->
+
+			<div class="jumbotron">
+	  			<h1>DEN SANDE HISTORIE</h1>
+
+	  			Dit nyhedmedie, der fortæller dig sandheden!
+			</div>
+			<div id="content">
+				<div class="description">
+					Nyheder<br>
+				</div>
+                
+                <ul id="tabs" class="nav nav-tabs " data-tabs="tabs">
+					<li class="active"><a href="https://fkgam.github.io/#nyhed1" data-toggle="tab"><i class="fa fa-newspaper-o"></i> Den sande historie om Victor, tror vi</a></li>
+                    <li><a href="https://fkgam.github.io/#nyhed2" data-toggle="tab"><i class="fa fa-newspaper-o"></i> Nyhed 2</a></li>
+				</ul>
+
+				<div id="my-tab-content" class="tab-content">
+					<div class="tab-pane active" id="nyhed1">
+						<h1>Den sande historie om Victor, tror vi</h1>
+
+						<div class="btn-group inline pull-left">
+                            ffdsf
+							
+						</div>
+					</div>
+                    <div class="tab-pane" id="nyhed2">
+						<h1>Nyhed 2</h1>
+
+						<div class="btn-group inline pull-left">
+                            ffdsf
+							
+						</div>
+					</div>					
+
+
+				</div>
+			</div>
+		</div> <!-- container -->
+
+		<script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
